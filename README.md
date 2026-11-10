@@ -361,6 +361,7 @@ seatwave-network/
   gradle.lockfile             Pinned transitive versions (settings-gradle.lockfile does the same for settings)
   config/                     Every setting of every program, and the curl targets
   scripts/curl-timings.sh     curl -w for every target, with a dry run, a confirmation and an audit line
+  tech/                       Beginner notes: one file per technology, plus line-by-line walkthroughs
   src/main/java/io/plainround/seatwave/network/
     config/                   SettingsReader
     server/                   SeatWave's read endpoints on the JDK server, and the serve command
@@ -374,6 +375,10 @@ seatwave-network/
 ```
 
 `ARCHITECTURE.md` explains the packages, one request step by step, the decisions and the invariant.
+
+## Technology notes
+
+The `tech/` folder explains every technology this repository uses, from zero: Java, networking and TLS in the JDK, Gradle and its wrapper scripts, Bash and the timing script, curl and openssl, keytool and the test certificates, the version catalog, dependency locking, the formatter, the coverage tool, the test libraries, the properties and targets files, Docker Compose, EditorConfig and Git. Eight more files walk through the main code and the tests line by line. Start at `tech/README.md`, which gives a reading order.
 
 ## What is simplified for teaching
 

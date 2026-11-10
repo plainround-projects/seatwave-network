@@ -41,7 +41,8 @@ class PhaseTimingsTest {
   void refusesANegativePhaseEvenWhenTheSumIsRight() {
     Duration minusTen = TEN.negated();
 
-    assertThat(PhaseTimings.of(TEN, minusTen, TEN, TEN, ZERO, TEN))
+    // 10 - 10 + 10 + 10 + 0 = 20, so the total is right and only the negative phase is wrong.
+    assertThat(PhaseTimings.of(TEN, minusTen, TEN, TEN, ZERO, TEN.plus(TEN)))
         .isInstanceOf(Result.Error.class);
   }
 

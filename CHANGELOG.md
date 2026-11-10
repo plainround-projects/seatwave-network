@@ -4,6 +4,17 @@ All notable changes to this project are written here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] - 2026-11-10
+
+### Added
+
+- `tech/`: 29 beginner notes, one per technology, with line-by-line walkthroughs of the main code,
+  the tests, the build files and the scripts, and an index with a reading order.
+
+### Fixed
+
+- `PhaseTimingsTest`: the negative-phase test now uses a correct total, so it tests that rule alone.
+
 ## [1.0.0] - 2026-11-10
 
 ### Added
