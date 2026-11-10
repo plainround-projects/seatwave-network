@@ -1,0 +1,5 @@
+# SeatWave, served by ./gradlew -q serve --args='config/serve.properties' on 127.0.0.1 only.
+# name              URL                                              CA file (TEST CA, HTTPS only)
+seatwave-http       http://127.0.0.1:8080/events/1/seats?section=A
+seatwave-https      https://127.0.0.1:8443/events/1/seats?section=A  build/tls/seatwave-test-ca.pem
+seatwave-distant    https://127.0.0.1:8444/events/1/seats?section=A  build/tls/seatwave-test-ca.pem

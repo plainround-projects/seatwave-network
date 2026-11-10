@@ -1,0 +1,4 @@
+# Three long-lived, non-commercial public sites: their home pages only, at most 3 runs each.
+example-com         https://example.com/
+wikipedia-org       https://www.wikipedia.org/
+kernel-org          https://www.kernel.org/
