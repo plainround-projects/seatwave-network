@@ -12,7 +12,7 @@ So that every contributor's editor writes files the same way: UTF-8 text, Unix l
 
 | Path | What it does |
 | --- | --- |
-| `.editorconfig` | The rules, 17 lines (14 of them are rules, 3 are blank). |
+| `.editorconfig` | The rules, 17 lines (13 of them are not blank, 4 are blank). |
 | `.gitattributes` | Enforces line endings at the Git level, where EditorConfig cannot (`git.md`). |
 | `build.gradle.kts` and other files | The files the rules apply to. |
 
